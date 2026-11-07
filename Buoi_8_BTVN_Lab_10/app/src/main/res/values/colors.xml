@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="profile_primary">#1D4ED8</color>
+    <color name="profile_primary_dark">#1E40AF</color>
+    <color name="profile_surface">#FFFFFF</color>
+    <color name="profile_background">#FFFFFF</color>
+    <color name="profile_text_primary">#111827</color>
+    <color name="profile_text_secondary">#6B7280</color>
+    <color name="profile_divider">#E5E7EB</color>
+    <color name="profile_avatar_bg">#DBEAFE</color>
+</resources>

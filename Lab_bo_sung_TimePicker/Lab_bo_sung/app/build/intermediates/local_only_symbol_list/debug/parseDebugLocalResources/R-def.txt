@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bg_input
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCancel
+id btnClear
+id btnSetAlarm
+id edtContent
+id edtEvent
+id edtTime
+id txtContent
+id txtEvent
+layout activity_detail
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Lab_bo_sung
+style DetailContent
+style DetailLabel
+style FormInput
+style FormLabel
+style Theme.AlarmNotificationLab
+style Theme.Lab_bo_sung
+xml backup_rules
+xml data_extraction_rules

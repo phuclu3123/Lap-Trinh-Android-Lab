@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Number:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@id/txtNumber"
+        app:layout_constraintStart_toEndOf="@id/txtNumber"
+        app:layout_constraintTop_toTopOf="@id/txtNumber" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Random"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/edtNumber"
+        app:layout_constraintTop_toTopOf="@id/edtNumber" />
+
+    <GridLayout
+        android:id="@+id/gridCards"
+        android:layout_width="301dp"
+        android:layout_height="432dp"
+        android:layout_marginTop="28dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNumber">
+
+        <Button
+            android:id="@+id/card0"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card1"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card2"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card3"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card4"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card5"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card6"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card7"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card8"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card9"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card10"
+            style="@style/CardButton" />
+
+        <Button
+            android:id="@+id/card11"
+            style="@style/CardButton" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Time: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gridCards" />
+
+    <TextView
+        android:id="@+id/txtFails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="Fails:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/edtTime"
+        app:layout_constraintEnd_toStartOf="@+id/edtFails"
+        app:layout_constraintTop_toTopOf="@+id/edtTime"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:focusable="false"
+        android:cursorVisible="false"
+        app:layout_constraintStart_toEndOf="@id/txtTime"
+        app:layout_constraintTop_toTopOf="@id/txtTime"
+        app:layout_constraintBottom_toBottomOf="@id/txtTime" />
+
+    <EditText
+        android:id="@+id/edtFails"
+        android:layout_width="53dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="16sp"
+        android:focusable="false"
+        android:cursorVisible="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtFails"
+        app:layout_constraintBottom_toBottomOf="@id/txtFails" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

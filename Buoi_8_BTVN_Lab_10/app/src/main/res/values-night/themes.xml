@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.Buoi_8_BTVN_Lab_10" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/profile_primary</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="Theme.Buoi_8_BTVN_Lab_10" parent="Base.Theme.Buoi_8_BTVN_Lab_10" />
+</resources>

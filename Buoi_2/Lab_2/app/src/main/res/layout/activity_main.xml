@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBanhChung4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bún thịt nướng" />
+
+    <Button
+        android:id="@+id/btnBanhChung5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bánh chưng" />
+
+    <Button
+        android:id="@+id/btnComTam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cơm tấm" />
+
+    <Button
+        android:id="@+id/btnBunBoHue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bún bò Huế" />
+
+    <Button
+        android:id="@+id/btnPho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phở" />
+
+    <Button
+        android:id="@+id/btnBanhMi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bánh mì" />
+
+    <Button
+        android:id="@+id/btnBunCha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bún chả" />
+
+    <Button
+        android:id="@+id/btnBanhXeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bánh xèo" />
+
+    <Button
+        android:id="@+id/btnGoiCuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gỏi cuốn" />
+
+    <Button
+        android:id="@+id/btnCaoLau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lẩu thái" />
+
+    <Button
+        android:id="@+id/btnHuTieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủ tiếu" />
+
+    <Button
+        android:id="@+id/btnBanhChung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bánh tằm cay" />
+
+    <Button
+        android:id="@+id/btnBanhChung2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bánh còng" />
+
+    <Button
+        android:id="@+id/btnBanhChung3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủ tiếu gõ" />
+
+</LinearLayout>
